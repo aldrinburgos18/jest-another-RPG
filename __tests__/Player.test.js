@@ -13,7 +13,6 @@ test('creates a player object', () => {
     expect(player.inventory).toEqual(
         expect.arrayContaining([expect.any(Object)])
     );
-    console.log(player);
 });
 
 test("gets player's stats as an object", () => {
